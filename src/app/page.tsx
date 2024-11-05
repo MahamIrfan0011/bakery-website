@@ -280,7 +280,7 @@ export default function Home() {
 
       <div id="cakes" className="py-20 px-10">
         <h2 className="text-4xl font-bold text-pink-600">Cakes</h2>
-        <p className="mt-4 text-lg text-gray-800">"Life’s Better with Cake!"</p>
+        <p className="mt-4 text-lg text-gray-800">"Life is Better with Cake!"</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mt-10">
           {cakes.map((cake, index) => (
             <div key={index} className="text-center flex flex-col items-center">

@@ -11,9 +11,7 @@ function Navbar(){
                 <li>
                     <Link href="/about" className="text-white hover:text-pink-300">About</Link>
                 </li>
-                <li>
-                    <Link href="/menu" className="text-white hover:text-pink-300"></Link>
-                </li>
+                
                 <li>
                     <Link href="/contact" className="text-white hover:text-pink-300">Contact</Link>
                 </li>
