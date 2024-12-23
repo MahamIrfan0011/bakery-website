@@ -24,25 +24,25 @@ const ReviewSection: React.FC = () => {
       comment: 'Loved the sourdough bread! The crust was perfect and the inside was soft.',
     },
     {
-        name: 'Danish',
-        rating: 4,
-        comment: '"Absolutely loved the cakes! They were fresh, delicious, and beautifully decorated. I highly recommend this bakery for any special occasion.'
+      name: 'Danish',
+      rating: 4,
+      comment: 'Absolutely loved the cakes! They were fresh, delicious, and beautifully decorated. I highly recommend this bakery for any special occasion.',
     },
     {
-        name: 'Ayesha',
-        rating: 5,
-        comment: 'The pastries here are out of this world! Everything from the croissants to the cupcakes is baked to perfection.'
+      name: 'Ayesha',
+      rating: 5,
+      comment: 'The pastries here are out of this world! Everything from the croissants to the cupcakes is baked to perfection.',
     },
     {
-        name: 'Aliza',
-        rating: 3,
-        comment: '"I pre-ordered a cake for my anniversary, and it was ready on time and tasted amazing. Scheduling was super easy.'
+      name: 'Aliza',
+      rating: 3,
+      comment: 'I pre-ordered a cake for my anniversary, and it was ready on time and tasted amazing. Scheduling was super easy.',
     },
     {
-        name: "Ali",
-        rating: 4,
-        comment: 'Ordered a custom birthday cake, and it turned out better than I imagined!'
-    }
+      name: 'Ali',
+      rating: 4,
+      comment: 'Ordered a custom birthday cake, and it turned out better than I imagined!',
+    },
   ]);
 
   const [newReview, setNewReview] = useState<Review>({
@@ -67,11 +67,11 @@ const ReviewSection: React.FC = () => {
 
   return (
     <div className="bg-light-pink py-12">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-6 text-left text-dark-blue">Customer Reviews</h2>
 
         {/* Display reviews */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {reviews.map((review, index) => (
             <div key={index} className="p-6 bg-white shadow-lg rounded-lg">
               {/* Remove image */}
@@ -85,8 +85,6 @@ const ReviewSection: React.FC = () => {
             </div>
           ))}
         </div>
-
-       
       </div>
     </div>
   );
