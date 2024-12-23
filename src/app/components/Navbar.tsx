@@ -12,7 +12,7 @@ function Navbar() {
     return (
         <nav className="bg-pink-600 p-4 shadow-lg">
             <div className="container mx-auto flex justify-between items-center">
-                <h1 className="text-2xl font-bold text-white">Delight Baker's</h1>
+                <h1 className="text-2xl font-bold text-white">Delight Baker&apos;s</h1>
 
                 {/* Hamburger icon on mobile */}
                 <div className="block lg:hidden">
