@@ -202,7 +202,7 @@ export default function Home() {
           alt="Cake Image"
           width={1300}
           height={600}
-          objectFit="contain"
+          style={{ objectFit: 'contain' }}
           className="opacity-90"
         />
       </div>
@@ -250,7 +250,8 @@ export default function Home() {
                   width={150}
                   height={150}
                   className="rounded-lg shadow-md"
-                  style={{ borderRadius: '10px' }}
+                  style={{ borderRadius: '10px' , objectFit: 'contain' }}
+                 
                 />
                 <div className="mt-2">
                   <span className="font-bold block text-pink-400">{item.name}</span>
