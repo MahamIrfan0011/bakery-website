@@ -132,7 +132,7 @@ const cookies = [
   {
     id: 3,
     name: 'Oatmeal Raisin Cooky',
-    src: '/oatmeal Raisin Cookies.jpg',
+    src: '/oatrisin.jpg',
     description: 'Chewy oatmeal cookies with sweet raisins and a hint of cinnamon',
     price: 'Rs300',
   },
