@@ -42,7 +42,7 @@ const cupcakes = [
   {
     id: 1,
     name: 'Chocolate Cupcake',
-    src: '/chocolate Cupcakes.jpg',
+    src: '/chocolate-cupcake.jpg',
     description: 'Rich and moist chocolate flavor',
     price: 'Rs300',
   },
