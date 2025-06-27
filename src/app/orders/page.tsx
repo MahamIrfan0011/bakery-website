@@ -9,8 +9,8 @@ export default function Order() {
   // Simulate loading when the component mounts
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsLoading(false); // Set loading to false after 2 seconds
-    }, 2000); // Change the duration as needed
+      setIsLoading(false); // Set loading to false after 1 seconds
+    }, 1000); // Change the duration as needed
 
     // Cleanup the timer when the component unmounts
     return () => clearTimeout(timer);
